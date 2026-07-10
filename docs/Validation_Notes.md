@@ -9,6 +9,8 @@ The pathway should prioritize:
 - Understandability
 - Cross-domain movement
 - Structured surprise
+- Intermediate discovery value
+- Unfamiliar but meaningful words, facts, domains, or perspectives along the pathway
 - Clear distinction between facts and analogies
 - A saveable discovery experience
 
@@ -120,15 +122,36 @@ A widely known mainstream consumer product focused on:
 
 > user-selected concepts  
 > → explainable multi-hop pathway  
+> → meaningful intermediate discoveries  
 > → fact / analogy distinction  
 > → structured surprise  
-> → saveable personal sketchbook
+> → saveable words, pathways, and personal sketchbook
 
 has not yet been clearly identified.
 
 This is not a claim that no similar project exists.
 
 It is a working research hypothesis that requires continued validation through product research, web search, and model experimentation.
+
+---
+
+## Intermediate Discovery Hypothesis
+
+The value of the experience may come not only from connecting the two endpoints.
+
+Users may also value discovering unfamiliar words, facts, domains, or perspectives while moving through the pathway.
+
+A strong pathway should therefore provide three layers of value:
+
+1. surprise that the endpoints can be connected
+2. understanding of how the complete route holds together
+3. discovery of something meaningful along the way
+
+Intermediate discoveries must arise naturally from the pathway.
+
+They should not be unrelated bonus trivia added only to make the output appear more informative.
+
+> The pathway should reveal a hidden world between the two concepts.
 
 ---
 
@@ -167,4 +190,18 @@ Possible mitigation:
 - Let users predict the next hop
 - Let users compare multiple pathways
 - Let users save and annotate discoveries
+- Let users save an intermediate word directly and reuse it in a later concept pair
 - Offer a daily random concept pair
+
+### Shallow Intermediate Node Risk
+
+LLMs may insert unfamiliar terms or impressive facts that appear educational but do not meaningfully support the pathway.
+
+Possible mitigation:
+
+- Require every intermediate node to connect clearly to both adjacent nodes
+- Evaluate intermediate discovery value separately from endpoint surprise
+- Reject unrelated bonus trivia
+- Prefer concepts that are worth remembering, saving, or reusing
+- Verify factual claims before presenting them as discoveries
+- Allow users to mark which words or facts were new to them
