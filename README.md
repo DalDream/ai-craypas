@@ -2,6 +2,28 @@
 
 > There are no unrelated concepts — only undiscovered pathways.
 
+## Core Question
+
+**Can AI make humans more creative?**
+
+Generative AI is often used to produce finished outputs on behalf of people.
+
+AI Craypas explores a different role for AI: not replacing human creation, but revealing unexpected and understandable connections that may help people think, imagine, and create something new.
+
+> There are no unrelated concepts — only undiscovered pathways.
+
+AI Craypas is an exploratory concept for generating understandable, multi-hop pathways between two seemingly unrelated concepts.
+
+It does not try to find the shortest route, the most similar word, or a single correct answer.
+
+Instead, it asks:
+
+> What hidden path can connect these two ideas?
+
+---
+
+## The Interaction
+
 AI Craypas is an exploratory concept for generating understandable, multi-hop pathways between two seemingly unrelated concepts.
 
 It does not try to find the shortest route, the most similar word, or a single correct answer.
