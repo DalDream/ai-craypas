@@ -147,12 +147,45 @@ Score every output from 1 to 5.
 
 | Criterion | Evaluation Question |
 |---|---|
-| Endpoint validity | Does the path genuinely reach Concept B from Concept A? |
-| Hop density | Is each step understandable without abrupt jumps? |
-| Cross-domain quality | Does it move between domains naturally? |
-| Discovery value | Does it create a meaningful “I did not know that” moment? |
-| Factual stability | Are factual claims likely to be accurate and checkable? |
-| Product readability | Can the output be shown as clean cards in an app? |
+| Endpoint Validity | Does the path genuinely reach Concept B from Concept A? |
+| Hop Density | Is each step understandable without abrupt jumps? |
+| Cross-Domain Quality | Does the pathway move between domains naturally? |
+| Structured Surprise | Does the complete pathway create a convincing “I would not have connected these before” moment? |
+| Intermediate Discovery Value | Do the intermediate nodes reveal unfamiliar, meaningful, or reusable words, facts, domains, or perspectives? |
+| Factual Stability | Are factual claims likely to be accurate and checkable? |
+| Product Readability | Can the output be shown as clean, understandable cards in an app? |
+
+### Structured Surprise
+
+This criterion evaluates the complete pathway.
+
+A strong result should make the evaluator feel:
+
+> “I would not have connected these two concepts before, but now I understand why.”
+
+The score should reflect both:
+
+- the unexpectedness of the endpoint connection
+- the coherence of the full route
+
+A surprising but arbitrary route should not receive a high score.
+
+### Intermediate Discovery Value
+
+This criterion evaluates what the user discovers before reaching the endpoint.
+
+Strong intermediate nodes may provide:
+
+- an unfamiliar word
+- a previously unknown fact
+- a new domain
+- a different perspective on a familiar concept
+- a concept worth saving or reusing later
+
+Intermediate nodes should not exist only to fill the distance between the endpoints.
+
+> Each intermediate node should have the potential to become a small discovery.
+
 
 ---
 
@@ -203,8 +236,8 @@ The product needs a stronger grounding and verification layer before it can clai
 
 Use the following table after testing.
 
-| Input Pair | Model | Run | Endpoint Validity | Hop Density | Cross-Domain Quality | Discovery Value | Factual Stability | Product Readability | Notes |
-|---|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Input Pair | Model | Run | Endpoint Validity | Hop Density | Cross-Domain Quality | Structured Surprise | Intermediate Discovery Value | Factual Stability | Product Readability | Notes |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
 | Fingernail → Magellan | Gemini | 1 |  |  |  |  |  |  |  |
 | Fingernail → Magellan | Claude | 1 |  |  |  |  |  |  |  |
 | Fingernail → Magellan | GPT | 1 |  |  |  |  |  |  |  |
@@ -232,3 +265,4 @@ At the end of the experiment, summarize:
 3. Which kinds of errors appeared most often
 4. Whether a grounding layer is necessary for the prototype
 5. What the final AI Craypas prompt and interface need to emphasize
+6. Which models most consistently produced valuable intermediate discoveries rather than merely completing the endpoint connection
