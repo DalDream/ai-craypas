@@ -2,6 +2,8 @@
 
 > There are no unrelated concepts — only undiscovered pathways.
 
+---
+
 ## Core Question
 
 **Can AI make humans more creative?**
