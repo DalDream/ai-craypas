@@ -114,6 +114,8 @@ What to evaluate:
 
 ## Common Prompt Template
 
+> This is a simplified evaluation prompt used only for baseline model comparison. It is not the production prompt used by AI Craypas.
+
 Use the following prompt for every model.
 
     Generate an understandable multi-hop conceptual pathway between Concept A and Concept B.
